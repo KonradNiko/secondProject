@@ -1,0 +1,41 @@
+﻿- prosze w tym przypadku o uzywanie kompilatora sass
+ i tworzenie plikow skladowych w ktorych beda umieszczane 
+style dla kazdej z sekcji z osobna polaczone w jednym pliku 
+glownym
+
+- prosze rowniez o korzystanie ze zmniennych mixinow 
+i extendowania klas (np do stylowania naglowko i akapitow)
+
+- 
+projekt opieramy na bootstrapie z wykorzystaniem nastepujacych
+modulow: 
+
+
+https://getbootstrap.com/docs/4.1/getting-started/introduction/#starter-template
+
+
+https://getbootstrap.com/docs/4.1/getting-started/introduction/#starter-template
+
+
+https://getbootstrap.com/docs/4.1/layout/grid/
+
+
+https://getbootstrap.com/docs/4.1/content/typography/
+
+
+https://getbootstrap.com/docs/4.1/components/navbar/
+
+
+https://getbootstrap.com/docs/4.1/components/buttons/
+
+
+https://getbootstrap.com/docs/4.1/components/forms/
+
+
+https://getbootstrap.com/docs/4.1/components/collapse/
+
+
+https://getbootstrap.com/docs/4.1/utilities/flex/
+
+
+https://getbootstrap.com/docs/4.1/utilities/text/
