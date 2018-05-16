@@ -80,7 +80,7 @@ img {
 a:hover {
   border-top: 3px solid #ff6033; }
 
-.about {
+.aboutUs {
   background-image: url(../../images/cup.png);
   background-repeat: no-repeat;
   background-position-x: 20px;
@@ -88,22 +88,116 @@ a:hover {
   height: 620px;
   background-color: #00b0b0; }
 
-h1 {
+h1.about {
   font-family: 'Raleway', sans-serif;
+  color: white;
   font-size: 90px;
   font-weight: bold;
   margin-bottom: 32px; }
 
-p {
+p.about {
   font-family: 'Raleway', sans-serif;
-  font-size: 17px; }
+  font-size: 17px;
+  color: white; }
 
 .two {
   background-color: #00b0b0;
-  width: 500px;
+  width: 450px;
   position: relative;
-  left: 420px;
-  border: 1px solid black; }
+  left: 660px;
+  margin-top: 150px; }
+
+.ourServices {
+  padding-top: 45px;
+  padding-left: 150px;
+  background-image: url(../../images/tomato.png);
+  background-repeat: no-repeat;
+  background-position-x: 580px;
+  background-position-y: 40px;
+  height: 600px;
+  background-color: #70bfff; }
+
+h1.service {
+  width: 600px;
+  position: relative;
+  right: 130px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 90px;
+  font-weight: bold;
+  margin-bottom: 32px; }
+
+.three {
+  width: 600px;
+  position: relative;
+  top: 100px;
+  left: 500px;
+  margin-top: 150px; }
+
+div.box {
+  box-shadow: 2px 10px 9px;
+  background-color: white;
+  height: 100px;
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #262626;
+  text-align: center;
+  padding-top: 30px;
+  position: relative;
+  top: -270px; }
+
+div.box1 {
+  background-image: url(../../images/cart.png);
+  background-repeat: no-repeat;
+  background-position-x: 15px;
+  background-position-y: 25px;
+  border-left: 1px solid silver;
+  box-shadow: 2px 10px 9px;
+  background-color: white;
+  height: 100px;
+  margin-bottom: 16px;
+  position: relative;
+  top: -270px; }
+
+div.box2 {
+  background-image: url(../../images/quality.png);
+  background-repeat: no-repeat;
+  background-position-x: 15px;
+  background-position-y: 25px;
+  border-left: 1px solid silver;
+  box-shadow: 2px 10px 9px;
+  background-color: white;
+  height: 100px;
+  margin-bottom: 16px;
+  position: relative;
+  top: -270px; }
+
+div.box3 {
+  background-image: url(../../images/world.png);
+  background-repeat: no-repeat;
+  background-position-x: 15px;
+  background-position-y: 25px;
+  border-left: 1px solid silver;
+  box-shadow: 2px 10px 9px;
+  background-color: white;
+  height: 100px;
+  margin-bottom: 16px;
+  position: relative;
+  top: -270px; }
+
+div.box4 {
+  background-image: url(../../images/carrot.png);
+  background-repeat: no-repeat;
+  background-position-x: 15px;
+  background-position-y: 25px;
+  border-left: 1px solid silver;
+  box-shadow: 2px 10px 9px;
+  background-color: white;
+  height: 100px;
+  margin-bottom: 16px;
+  position: relative;
+  top: -270px; }
 
 * {
   box-sizing: border-box; }

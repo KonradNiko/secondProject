@@ -1,0 +1,103 @@
+.ourServices {
+    padding-top: 45px;
+    padding-left: 150px;
+    background-image: url(../../images/tomato.png);
+    background-repeat: no-repeat;
+    background-position-x: 580px;
+    background-position-y: 40px;
+    height: 600px;
+    background-color: rgb(112, 191, 255);
+
+}
+
+h1.service {
+    width: 600px;
+    position: relative;
+    right: 130px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 90px;
+    font-weight: bold;
+    margin-bottom: 32px;
+
+}
+
+.three {
+    width: 600px;
+    position: relative;
+    top: 100px;
+    left: 500px;
+    margin-top: 150px;
+    
+}
+
+div.box {
+    box-shadow: 2px 10px 9px;
+    background-color: white;
+    height: 100px;
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(38, 38, 38);
+    text-align: center;
+    padding-top: 30px;
+    position: relative;
+    top: -270px;
+    
+}
+
+div.box1 {
+    background-image: url(../../images/cart.png);
+    background-repeat: no-repeat;
+    background-position-x: 15px;
+    background-position-y: 25px;
+    border-left: 1px solid silver;
+    box-shadow: 2px 10px 9px;
+    background-color: white;
+    height: 100px;
+    margin-bottom: 16px;
+    position: relative;
+    top: -270px;
+}
+
+div.box2 {
+    background-image: url(../../images/quality.png);
+    background-repeat: no-repeat;
+    background-position-x: 15px;
+    background-position-y: 25px;
+    border-left: 1px solid silver;
+    box-shadow: 2px 10px 9px;
+    background-color: white;
+    height: 100px;
+    margin-bottom: 16px;
+    position: relative;
+    top: -270px;
+}
+
+div.box3 {
+    background-image: url(../../images/world.png);
+    background-repeat: no-repeat;
+    background-position-x: 15px;
+    background-position-y: 25px;
+    border-left: 1px solid silver;
+    box-shadow: 2px 10px 9px;
+    background-color: white;
+    height: 100px;
+    margin-bottom: 16px;
+    position: relative;
+    top: -270px;
+}
+
+div.box4 {
+    background-image: url(../../images/carrot.png);
+    background-repeat: no-repeat;
+    background-position-x: 15px;
+    background-position-y: 25px;
+    border-left: 1px solid silver;
+    box-shadow: 2px 10px 9px;
+    background-color: white;
+    height: 100px;
+    margin-bottom: 16px;
+    position: relative;
+    top: -270px;
+}
