@@ -1,0 +1,66 @@
+.contact {
+    background-image: url(../../images/contact-bg.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+.contact-h {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(38, 38, 38);
+    font-size: 90px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+.contact-p { 
+    padding-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: rgb(38, 38, 38);
+    font-size: 17px;
+    margin-bottom: 48px;
+
+}
+
+.contact2 {
+    position: relative;
+    left: 600px;
+    top: -250px;
+
+}
+
+.field {
+    margin-top: -24px;
+    padding-top:20px 16px 20px 16px;
+    border-radius: 0px;
+    background-color: rgb(111, 212, 208);
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    border: none;
+}
+
+input.field::placeholder {
+    color: white;
+
+}
+
+.field:hover {
+    font-weight: bold;
+    border-left: 3px solid rgb(53, 91, 130);
+    background-color: rgb(0, 196, 196);
+}
+
+.adress1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.adress2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+
