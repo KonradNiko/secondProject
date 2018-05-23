@@ -3,10 +3,8 @@
 }
 
 .gallery {
-
     height: 100%;
     background-color: rgb(255, 233, 47);
-
 }
 
 p.gall {
@@ -32,25 +30,28 @@ p.text {
     margin-bottom: 48px;
 }
 
-table {
+.tab1 {
     width: 1100px;
-    height: 900px;
+    height: 580px;
     border-collapse: separate;
     table-layout: fixed;
     border-spacing: 16px;
+}
 
+.tab2 {
+    width: 1100px;
+    height: 450px;
+    border-collapse: separate;
+    table-layout: fixed;
+    border-spacing: 16px;
 }
 
 .pic1 {
-
-
     height: 55%;
     margin: 16px;
-    border: 1px solid black;
     padding: 16px;
     background-image: url(../../images/peach.png);
     background-repeat: no-repeat;
-    
 }
 
 td#one {
@@ -58,34 +59,26 @@ td#one {
 }
 
 .pic2 {
-
     margin: 16px;
     width: 30%;
     height: 30%;
-    border: 1px solid black;
     padding: 16px;
     background-image: url(../../images/sub-bg.jpg);
     background-repeat: no-repeat;
-
 }
 
 .pic3 {
-
     margin: 16px;
     height: 30%;
-    border: 1px solid black;
     padding: 16px;
     background-image: url(../../images/blackberries.png);
     background-repeat: no-repeat;
-
 }
 
 .pic4 {
-
     width: 300px;
     width: 50%;
     height: 45%;
-    border: 1px solid black;
     background-image: url(../../images/milk.png);
     background-repeat: no-repeat;    
 }
@@ -96,11 +89,8 @@ td#four {
 
 .pic5 {
     width: 50%;
-    border: 1px solid black;
     background-image: url(../../images/pomegranate.png);
-    background-repeat: no-repeat;
-
-        
+    background-repeat: no-repeat;      
 }
 
 .but-gal {
@@ -110,11 +100,11 @@ td#four {
     color: white;
     background-color: rgb(85, 133, 162);
     padding: 16px 24px 16px 24px;
-    
+    position: relative;
+    left: 320px;
+    border: none;
 }
 
 td {
-
-    border: 1px solid black;
     width: 100px;
 }

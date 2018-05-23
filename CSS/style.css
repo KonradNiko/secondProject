@@ -39,25 +39,28 @@
   background-image: url(../../images/header-bg.jpg);
   background-repeat: no-repeat;
   background-position-x: 340px;
-  background-position-y: -90px;
-  height: 800px;
+  background-position-y: -240px;
+  height: 100%;
   background-color: #fbfbfd; }
 
 h1 {
   font-family: 'Raleway', sans-serif;
   font-size: 60px;
-  font-weight: bold; }
+  font-weight: bold;
+  color: #262626; }
 
 p {
   font-family: 'Raleway', sans-serif;
-  font-size: 17px; }
+  font-size: 17px;
+  margin-bottom: 32px; }
 
 .but {
   border-radius: 0px;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   background-color: #ff6033;
-  box-shadow: 2px 10px 9px; }
+  box-shadow: 2px 10px 9px;
+  margin-bottom: 40px; }
 
 .links {
   background-color: #fbfbfd; }
@@ -227,9 +230,16 @@ p.text {
   text-align: center;
   margin-bottom: 48px; }
 
-table {
+.tab1 {
   width: 1100px;
-  height: 900px;
+  height: 580px;
+  border-collapse: separate;
+  table-layout: fixed;
+  border-spacing: 16px; }
+
+.tab2 {
+  width: 1100px;
+  height: 450px;
   border-collapse: separate;
   table-layout: fixed;
   border-spacing: 16px; }
@@ -237,7 +247,6 @@ table {
 .pic1 {
   height: 55%;
   margin: 16px;
-  border: 1px solid black;
   padding: 16px;
   background-image: url(../../images/peach.png);
   background-repeat: no-repeat; }
@@ -249,7 +258,6 @@ td#one {
   margin: 16px;
   width: 30%;
   height: 30%;
-  border: 1px solid black;
   padding: 16px;
   background-image: url(../../images/sub-bg.jpg);
   background-repeat: no-repeat; }
@@ -257,7 +265,6 @@ td#one {
 .pic3 {
   margin: 16px;
   height: 30%;
-  border: 1px solid black;
   padding: 16px;
   background-image: url(../../images/blackberries.png);
   background-repeat: no-repeat; }
@@ -266,7 +273,6 @@ td#one {
   width: 300px;
   width: 50%;
   height: 45%;
-  border: 1px solid black;
   background-image: url(../../images/milk.png);
   background-repeat: no-repeat; }
 
@@ -275,7 +281,6 @@ td#four {
 
 .pic5 {
   width: 50%;
-  border: 1px solid black;
   background-image: url(../../images/pomegranate.png);
   background-repeat: no-repeat; }
 
@@ -285,10 +290,12 @@ td#four {
   font-size: 20px;
   color: white;
   background-color: #5585a2;
-  padding: 16px 24px 16px 24px; }
+  padding: 16px 24px 16px 24px;
+  position: relative;
+  left: 320px;
+  border: none; }
 
 td {
-  border: 1px solid black;
   width: 100px; }
 
 .subscribe {
@@ -444,8 +451,7 @@ input {
   border-radius: 0px;
   background-color: #6fd4d0;
   font-family: 'Raleway', sans-serif;
-  color: white;
-  border: none; }
+  color: white; }
 
 input.field::placeholder {
   color: white; }
@@ -458,8 +464,7 @@ input.field::placeholder {
 .adress1 {
   font-family: 'Raleway', sans-serif;
   font-size: 17px;
-  font-weight: bold;
-  margin-bottom: 16px; }
+  font-weight: bold; }
 
 .adress2 {
   font-family: 'Raleway', sans-serif;
@@ -470,7 +475,8 @@ input.field::placeholder {
 .foot-1 {
   background-color: #262626;
   height: 90px;
-  border-spacing: 0px; }
+  border-spacing: 0px;
+  margin: -1px; }
 
 .foot-p {
   padding-bottom: 10px;
