@@ -279,12 +279,13 @@ td#four {
   background-image: url(../../images/pomegranate.png);
   background-repeat: no-repeat; }
 
-.but {
+.but-gal {
   border-radius: 0px;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
+  color: white;
   background-color: #5585a2;
-  box-shadow: 2px 10px 9px; }
+  padding: 16px 24px 16px 24px; }
 
 td {
   border: 1px solid black;
@@ -465,6 +466,28 @@ input.field::placeholder {
   font-size: 20px;
   font-weight: 300;
   margin-bottom: 16px; }
+
+.foot-1 {
+  background-color: #262626;
+  height: 90px;
+  border-spacing: 0px; }
+
+.foot-p {
+  padding-bottom: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #b9b9b9;
+  font-size: 16px;
+  text-align: center; }
+
+.foot-p2 {
+  font-family: 'Pacifico', cursive;
+  color: #b9b9b9;
+  text-align: center;
+  font-size: 24px; }
+
+b {
+  color: #f72b3b; }
 
 * {
   box-sizing: border-box; }
